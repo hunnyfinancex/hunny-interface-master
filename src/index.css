@@ -1,0 +1,118 @@
+@font-face {
+  font-family: 'NeonTubes2';
+  src: url(./fonts/NeonLights/NeonTubes2.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'FreestyleScript';
+  src: url(./fonts/FreestyleScript/FREESCPT.woff) format('woff');
+}
+
+html {
+  scrollbar-face-color: #e2d6cf;
+  scrollbar-base-color: #e2d6cf;
+  scrollbar-3dlight-color: #e2d6cf;
+  scrollbar-highlight-color: #e2d6cf;
+  scrollbar-track-color: transparent;
+  scrollbar-arrow-color: transparent;
+  scrollbar-shadow-color: #e2d6cf;
+}
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+::-webkit-scrollbar {
+  margin-left: 10px;
+  width: 12px;
+  height: 3px;
+}
+body::-webkit-scrollbar {
+  margin-left: 10px;
+  width: 8px;
+  height: 3px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+::-webkit-scrollbar-track-piece {
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+  height: 50px;
+  background-color: #e2d6cf;
+  border-radius: 0px;
+
+  background-clip: padding-box;
+
+  border-left: 8px solid rgba(0, 0, 0, 0);
+}
+
+body::-webkit-scrollbar-thumb {
+  height: 50px;
+  background-color: #e2d6cf;
+  border-radius: 5px;
+
+  background-clip: none;
+
+  border-left: none;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+::-webkit-resizer {
+  background-color: transparent;
+}
+
+body {
+  background: rgba(1, 5, 14, 0.9);
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.Toastify__close-button--default {
+  color: #fff;
+}
+
+@media (max-width: 1023px) {
+  body {
+    margin-bottom: 56px;
+  }
+}
+
+.__react_component_tooltip.show {
+  opacity: 1 !important;
+}
+
+@media (max-width: 425px) {
+  .__react_component_tooltip.show {
+    opacity: 1 !important;
+    left: 20px !important;
+    width: 100vw;
+    max-width: calc(100vw - 40px);
+    box-sizing: border-box;
+  }
+
+  .__react_component_tooltip::after,
+  .__react_component_tooltip::after {
+    content: unset !important;
+  }
+}
+
+.__react_component_tooltip .multi-line {
+  text-align: left !important;
+}
+
+body.no-scroll {
+  overflow: hidden;
+}

@@ -1,0 +1,15 @@
+{
+  "short_name": "Hunny Finance",
+  "name": "\uD83C\uDF6F Hunny Finance  - DeFi yield farming aggregator and optimizer for Binance Smart Chan (BSC) and Ethereum (ETH)",
+  "icons": [
+    {
+      "src": "logo-hunny-200.png",
+      "type": "image/png",
+      "sizes": "200x200"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

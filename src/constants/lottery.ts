@@ -1,0 +1,1 @@
+export const HUNNY_PER_TICKET_RATE = 100;
