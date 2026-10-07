@@ -43,7 +43,7 @@
   "scripts": {
     "start": "react-scripts start",
     "dev": "react-scripts --openssl-legacy-provider start",
-    "build": "react-scripts build && cp ./build/index.html ./build/200.html",
+    "build": "react-scripts --openssl-legacy-provider build && cp ./build/index.html ./build/200.html",
     "start:prod": "http-server -a 127.0.0.1 -p 30000 ./build/",
     "format:code": "prettier --write .",
     "test": "react-scripts test",
